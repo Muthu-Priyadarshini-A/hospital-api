@@ -6,7 +6,7 @@ mongooose.connect('mongodb+srv://priyaarumugam:pNTtyb6EPgp2Qh64@cluster0.4m60krs
 const db = mongooose.connection;
 
 db.on('error', console.error.bind(console, "Error connecting to DB"));
-// if db is connected 
+// if db is connected
 db.once('open', function () {
     console.log('Connected to Database :: MongoDB');
 });
