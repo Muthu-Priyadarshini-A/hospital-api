@@ -3,7 +3,7 @@ const Doctor = require('../models/Doctor');
 const Report = require('../models/Reports');
 
 
-//--------------create patient for authorized doctor-----------------//
+//create patient for authorized doctor
 module.exports.create = async (req, res) => {
     try {
         let patient = await Patient.findOne({ phone: req.body.phone });
@@ -15,21 +15,21 @@ module.exports.create = async (req, res) => {
             });
         }
         return res.status(200).json({
-            message: "Patient Registered Now",
+            message: "Patient is registered now!!!",
             patient: patient._id,
         })
     }
     catch (err) {
         console.log(err);
         return res.status(401).json({
-            message: "Server Side issue",
+            message: "Oh no! Server Side issue",
         })
     }
 }
 
 
 
-//------------create report for the patient---------------------//
+//create report for the patient
 module.exports.createReport = async (req, res) => {
     console.log(req.params)
     try {
@@ -46,7 +46,7 @@ module.exports.createReport = async (req, res) => {
                 date: req.body.date,
             };
             
-            console.log("hello", Report);
+            // console.log("hello", Report);
 
             // create the report and push in patient's reports
             let report = await Report.create(reportData);
@@ -55,7 +55,7 @@ module.exports.createReport = async (req, res) => {
             patient.save();
 
             return res.status(200).json({
-                message: "Patient report successfully created",
+                message: "Patient report is created successfully",
             });
         } else {
             return res.status(409).json({
@@ -72,7 +72,7 @@ module.exports.createReport = async (req, res) => {
 };
 
 
-//--------------create all the reports-------------------------------//
+//create all the reports
 module.exports.allReports = async (req, res) => {
     try {
         let patient = await Patient.findById(req.params.id).populate({
@@ -87,7 +87,7 @@ module.exports.allReports = async (req, res) => {
             });
         } else {
             return res.status(409).json({
-                message: "Patient not registered",
+                message: "Patient is not registered",
             });
         }
     } catch (err) {

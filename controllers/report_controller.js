@@ -1,6 +1,6 @@
 const Report = require('../models/Reports');
 
-//------------ status action of any patient--------------------------//
+//status action of any patient
 module.exports.status = async (req, res) => {
     try {
         // populate report with patient and doctor

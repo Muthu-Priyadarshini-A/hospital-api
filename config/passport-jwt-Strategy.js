@@ -10,7 +10,7 @@ let opts = {
 }
 
 
-//----------JWT authentication Sradegy----------------//
+//JWT authentication Sradegy
 passport.use(new JWTStrategy(opts, async function (jwtPayLoad, done) {
 
 try{

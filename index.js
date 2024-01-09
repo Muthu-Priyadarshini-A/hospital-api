@@ -4,21 +4,21 @@ const bodyParser = require("body-parser")
 
 const port = process.env.PORT || 8080;
 
-// -----------DB Connection---------------------------//
+// DB Connection
 const db = require('./config/mongoose')
 
 
-// ----------passport and passport-jwt---------------//
+// passport and passport-jwt
 const passport = require('passport');
 const passportJWT = require('./config/passport-jwt-Strategy');
 
 
-// -------------for reading form data---------------//
+// for reading form data
 app.use(express.urlencoded({ extended: true }))
 
 app.use(passport.initialize());
 
-// ----------------index route---------------------//
+// index route
 app.use('/', require('./routes/index'));
 
 app.listen(port, (err) => {
