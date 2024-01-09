@@ -38,6 +38,6 @@ Clone this repository using the following command: https://github.com/Muthu-Priy
 
 Install the required dependencies using the following command: $ npm install
 
-Start the application using the following command: $ npm run start
+Start the application using the following command: $ npm start
 
 Open the application in your postman app by visiting the following URL: http://localhost:8080
