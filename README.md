@@ -46,22 +46,23 @@ Open the application in your postman app by visiting the following URL: http://l
 Screenshots of routes check in Postman below:
 ----------------------------------------------
 http://localhost:8080/doctors/register
- ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/04625f49-f4e1-440f-b811-c90430a2a8a3)
+ ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/91daec84-ec39-489a-b84f-796ede40d092)
 
 http://localhost:8080/doctors/login
  ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/c1736678-ce80-453b-9c00-960a65d15253)
 
 http://localhost:8080/patients/register
- ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/e25be671-e8f9-4def-8657-d0e088687dbf)
+![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/04d8dda8-b2fd-4bc8-82a2-cf0939fbc6ab)
 
 http://localhost:8080/patients/659d6ccbb9b13df44538a0cb/create-report
- ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/8bd98c3c-b6a4-4489-aaa7-02ac95b09569)
+ ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/700d360b-dd21-40a6-9fef-937c9a7736f5)
 
 http://localhost:8080/patients/659d6ccbb9b13df44538a0cb/all_reports
- ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/8fcfc906-ec86-4e44-9aa6-1665ffd70089)
+![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/ef0b0da2-94e6-48e1-b834-bea72ecd6094)
 
 http://localhost:8080/report/:status
-![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/d8372768-a3e0-42fb-8c00-f93c0c1f9b16)
+![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/850c4312-d4f7-48da-bd52-9ec6a6b70698)
+
 
 
 
