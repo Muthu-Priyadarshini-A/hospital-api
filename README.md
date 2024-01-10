@@ -41,3 +41,30 @@ Install the required dependencies using the following command: $ npm install
 Start the application using the following command: $ npm start
 
 Open the application in your postman app by visiting the following URL: http://localhost:8080
+
+
+Screenshots of routes check in Postman below:
+----------------------------------------------
+http://localhost:8080/doctors/register
+ ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/04625f49-f4e1-440f-b811-c90430a2a8a3)
+
+http://localhost:8080/doctors/login
+ ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/3cd6664d-a791-4594-9a57-d2d30d80bb7f)
+
+http://localhost:8080/patients/register
+ ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/e25be671-e8f9-4def-8657-d0e088687dbf)
+
+http://localhost:8080/patients/659d6ccbb9b13df44538a0cb/create-report
+ ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/8bd98c3c-b6a4-4489-aaa7-02ac95b09569)
+
+http://localhost:8080/patients/659d6ccbb9b13df44538a0cb/all_reports
+ ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/8fcfc906-ec86-4e44-9aa6-1665ffd70089)
+
+http://localhost:8080/report/:status
+![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/d8372768-a3e0-42fb-8c00-f93c0c1f9b16)
+
+
+
+
+
+
