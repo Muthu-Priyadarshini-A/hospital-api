@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 module.exports.register = async function (req, res) {
     // console.log(req.body);
     try {
-        let doctor = await Doctor.findOne({ email: req.body.email });
+        let doctor = await Doctor.findOne({ Username: req.body.email });
         if (doctor) {
             return res.status(200).json({
                 message: "Doctor is already registered ,please login",
@@ -17,7 +17,10 @@ module.exports.register = async function (req, res) {
         else {
             doctor = await Doctor.create({
                 name: req.body.name,
+                email: req.body.email,
                 password: req.body.password,
+                // speciality: req.body.speciality,
+                phone: req.body.phone,
             });
             return res.status(200).json({
                 message: 'You are successfully registered',
