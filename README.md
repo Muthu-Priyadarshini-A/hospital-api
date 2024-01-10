@@ -49,7 +49,7 @@ http://localhost:8080/doctors/register
  ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/04625f49-f4e1-440f-b811-c90430a2a8a3)
 
 http://localhost:8080/doctors/login
- ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/3cd6664d-a791-4594-9a57-d2d30d80bb7f)
+ ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/c1736678-ce80-453b-9c00-960a65d15253)
 
 http://localhost:8080/patients/register
  ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/e25be671-e8f9-4def-8657-d0e088687dbf)
