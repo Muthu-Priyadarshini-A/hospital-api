@@ -61,7 +61,8 @@ http://localhost:8080/patients/659d6ccbb9b13df44538a0cb/all_reports
  ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/8fcfc906-ec86-4e44-9aa6-1665ffd70089)
 
 http://localhost:8080/report/:status
- ![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/7278a5b4-9c07-40a8-9afb-da1b9de064dc)
+![image](https://github.com/Muthu-Priyadarshini-A/hospital-api/assets/133015304/d8372768-a3e0-42fb-8c00-f93c0c1f9b16)
+
 
 
 
